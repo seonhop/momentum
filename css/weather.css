@@ -1,0 +1,12 @@
+.weather {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+}
+
+.weather img {
+    width: 32px;
+    height: 32px;
+}
