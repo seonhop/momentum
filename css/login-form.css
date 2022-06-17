@@ -1,0 +1,22 @@
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 4em;
+}
+
+.login-form__msg {
+    font-size: inherit;
+}
+
+.login-form__input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin-top: 50px;
+    color: inherit;
+    font-size: inherit;
+    text-align: center;
+}

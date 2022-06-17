@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vanilla Challenge</title>
+        <meta charset="UTF-8" />
+        <style>
+            .large-label {
+                font-size: 1.5em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                margin-left: 0;
+                margin-right: 0;
+                font-weight: bold;
+            }
+            .guess-block {
+                margin-top: 1em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Random Number Game</h1>
+        <form>
+            <div>
+                <label class="large-label" for="user-choice">
+                    Generate a number between 0 and
+                </label>
+                <input id="user-choice" type="number" min="1" required />
+            </div>
+            <div class="guess-block">
+                <label for="user-guess"> Guess the number: </label>
+                <input id="user-guess" type="number" required />
+                <button id="play-button" type="submit">Play!</button>
+            </div>
+        </form>
+        <script src="src/index.js"></script>
+    </body>
+</html>
