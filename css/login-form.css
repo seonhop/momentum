@@ -3,6 +3,9 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: absolute;
+    left: 50;
+    bottom: 50;
 }
 .login-form {
     display: flex;
